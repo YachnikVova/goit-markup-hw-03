@@ -206,6 +206,10 @@ h3 {
   width: calc((100% - 72px) / 4);
 }
 
+.team-container {
+  padding: 32px 0;
+}
+
 .team-header {
   margin-bottom: 72px;
   line-height: 1.11;
@@ -220,6 +224,7 @@ h3 {
   flex-direction: row;
   align-items: center;
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-li-header {
@@ -306,8 +311,8 @@ h3 {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 17.5px;
-  display: block;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-logo {
