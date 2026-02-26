@@ -250,6 +250,8 @@ h3 {
   display: flex;
   gap: 24px;
   border-radius: 0px 0px 4px 4px;
+  margin-bottom: 16px;
+  width: calc((100% - 72px) / 4);
 }
 
 .portfolio-header {
