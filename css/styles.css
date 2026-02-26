@@ -91,12 +91,13 @@ h3 {
 
 .nav-main {
   display: flex;
+  align-items: center;
 }
 
 .nav-ul {
   display: flex;
   gap: 40px;
-  padding: 24px;
+  padding: 24px 0;
 }
 
 .logo-link {
@@ -116,7 +117,7 @@ h3 {
 }
 
 .main-header {
-  background-color: #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .address-info a {
@@ -140,7 +141,7 @@ h3 {
 }
 
 .hero {
-  padding: 188px;
+  padding: 188px 0;
   background-color: #2e2f42;
   color: white;
 }
