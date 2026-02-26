@@ -72,6 +72,7 @@ h3 {
   padding-left: 15px;
   padding-right: 15px; /*0-верх,вниз 15-лево,право */
   margin: 0 auto;
+  padding: 32px 0;
 }
 
 .section {
@@ -202,7 +203,7 @@ h3 {
   gap: 24px;
 }
 
-.features-ul:first-child {
+.features-li {
   width: calc((100% - 72px) / 4);
 }
 
@@ -244,6 +245,7 @@ h3 {
 .team-ul {
   display: flex;
   gap: 24px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .portfolio-header {
@@ -294,6 +296,7 @@ h3 {
 
 .page-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-link {
